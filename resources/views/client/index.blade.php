@@ -12,7 +12,7 @@
                             Immigrations &  <br>
                             Visa Consultation
                         </h1>
-                        <a href="#" class="genric-btn circle">Book Consultancy</a>
+                        <a href="{{route('shedule')}}" class="genric-btn circle">Schedule an Appointment</a>
                     </div>
                     <img class="header-img img-fluid align-self-end d-flex" src="{{asset('client/img/header-img.png')}}" alt="">			
                 </div>
@@ -37,7 +37,7 @@
                             </p>
                         </div>
                         <div class="col-lg-3 call-right justify-content-end d-flex">
-                            <a href="#" class="call-btn">Request Free Consultancy</a>
+                            <a href="{{route('shedule')}}" class="call-btn">Schedule an Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -332,7 +332,7 @@
         <!-- End brand Area -->		
 
         <!-- Start latest-blog Area -->
-        <section class="latest-blog-area section-gap" id="blog">
+        <!--<section class="latest-blog-area section-gap" id="blog">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-60 col-lg-8">
@@ -369,7 +369,7 @@
                     </div>						
                 </div>
             </div>	
-        </section>
+        </section>-->
         <!-- End latest-blog Area -->		
 
         <!-- Start callto Area -->
@@ -382,7 +382,7 @@
                         <p class="text-white pt-20 pb-20">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
                         </p>
-                        <a class="primary-btn" href="#">Apply For Visa</a>							
+                        <a class="primary-btn" href="{{route('shedule')}}">Schedule an Appointment</a>							
                     </div>
                 </div>
             </div>	

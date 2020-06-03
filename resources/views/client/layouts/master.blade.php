@@ -44,6 +44,7 @@
                     <div class="col-lg-4 menu-top-middle justify-content-center d-flex">
                         <a href="index.html">
                             <img class="img-fluid" src="{{asset('client/img/logo.png')}}" alt="">	
+                            
                         </a>			    			
                     </div>
                     <div class="col-lg-4 col-sm-4 menu-top-right">
@@ -58,18 +59,37 @@
                   <nav id="nav-menu-container">
                     <ul class="nav-menu">
                       <li class="menu-active"><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="immigration-list.html">Immigration</a></li>				          
-                      <li><a href="course-list.html">Course</a></li>
+                    <li class="menu-has-children"><a href="{{route('SCHENGEN-VISA')}}">Schengen Visa</a>
+                            <ul>
+                            <li><a href="">BUSINESS VISIT </a></li>
+                            <li><a href="">TOURIST VISIT        </a>                    </li>
+                            <li><a href="">Others</a></li>
+                        </ul>
+                        </li>
+                    <li class="menu-has-children"><a href="{{ROUTE('NATIONAL-VISA')}}">National Visa</a>
+                            <ul>
+                            <li><a href="">STUDIES</a></li>
+                            <li><a href="">EMPLOYMENT</a></li>
+                            <li><a href="">Others</a></li>
+                        </ul>
+                        </li>
+                      <!--<li><a href="course-list.html">Course</a></li>-->
                       <li><a href="country-list.html">Country</a></li>
-                      <li class="menu-has-children"><a href="">Blog</a>
+                     
+                    <li><a href="{{route('shedule')}}">Schedule an Appointment</a></li>
+                        <li><a href="">Track Your Application</a></li>
+                  
+                      
+
+                    <!--  <li class="menu-has-children"><a href="">Blog</a>
                         <ul>
                           <li><a href="blog-home.html">Blog Home</a></li>
                           <li><a href="blog-single.html">Blog Single</a></li>
                         </ul>
-                      </li>	
+                      </li>	-->
+                      <li><a href="about.html">About</a></li>
                       <li><a href="contact.html">Contact</a></li>
-                      <li><a href="elements.html">Elements</a></li>
+                      <!--<li><a href="elements.html">Elements</a></li>-->
                     </ul>
                   </nav><!-- #nav-menu-container -->		    		
                 </div>
@@ -134,7 +154,7 @@
                 <div class="footer-bottom row">
                     <p class="footer-text m-0 col-lg-6 col-md-12">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                     <div class="footer-social col-lg-6 col-md-12">
